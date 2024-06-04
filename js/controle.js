@@ -15,7 +15,7 @@ function addTarefa() {
             <i id="icone_${contador}" class="bi bi-circle"></i>
         </div>
 
-        <div onclick="marcarTarefa(${contador})" class="item-nome p-3 bg-white h-2 w-50" id="nome_tarefa${contador}">
+        <div onclick="marcarTarefa(${contador})" class="item-nome p-3 bg-white h-2 w-50 text-truncate" id="nome_tarefa${contador}">
             ${valorInput}
         </div>
 
