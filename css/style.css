@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d3caca;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+header {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/*
+main {
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin: auto auto;
+    padding-top: 40px;
+}
+*/
+.item {
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 100%;
+}
+/*
+.item {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 0 20px gray;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+*/
+
+.item.clicado .item-nome {
+    text-decoration: line-through;
+    color: rgb(46, 44, 44);
+}
+/*
+.item-icone {
+    flex: 20%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+.item-nome {
+    flex: 55%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.delete {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    height: 80px;
+    width: 100%;
+}
+*/
+
+.item-icone {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.item-nome {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
